@@ -33,6 +33,7 @@ targets the div which has a class name called ".signup-main" */
 .signup__text header {
     font-weight: 700;
     font-size: 42px;
+    margin-top: 50px;
   }
 
   .signup-container { 
@@ -41,27 +42,36 @@ targets the div which has a class name called ".signup-main" */
     min-height:170px;
   }
 
-  input {
-    width: 85%;
-    padding: 5px;
-    margin-bottom: 10px;
-    margin-bottom: 10px;
+  .signup-container span {
+    font-weight: 600;
   }
 
+  input {
+    width: 85%;
+    padding: 10px;
+    margin-bottom: -0.75rem;
+  }
+
+/*   img {
+    
+  }
+ */
   .signup-container section {
     text-align: center;
+    padding-top: 20px;
   }
 
   .signup-container header {
     background-color: hsl(248, 32%, 49%);
     padding: 10px 15px;
     text-align: center;
+    border-radius: 5px;
   }
 
   .signup-container section {
     background-color: white;
     color: hsl(249, 10%, 26%);
-    margin-top: 10px;
+    margin-top: 15px;
     border-radius: 5px;
   }
 
@@ -75,6 +85,7 @@ targets the div which has a class name called ".signup-main" */
   .signup-container footer .terms-services {
     color: hsl(0, 100%, 74%);
     font-weight: 600;
+    cursor: pointer;
   }
 
   button {
@@ -86,6 +97,31 @@ targets the div which has a class name called ".signup-main" */
     padding: 10px 15px;
     text-transform: uppercase;
   }
+
+  #f_name_error {
+    font-size: 10px;
+    font-style: italic;
+    text-align: right;
+    padding-right: 2rem;
+    font-weight: 400;
+  }
+
+  #l_name_error {
+    font-size: 10px;
+    font-style: italic;
+    text-align: right;
+    padding-right: 2rem;
+    font-weight: 400;
+  }
+
+  #password_error {
+    font-size: 10px;
+    font-style: italic;
+    text-align: right;
+    padding-right: 2rem;
+    font-weight: 400;
+  }
+
 
   @media screen and (max-width: 375px) {
 
