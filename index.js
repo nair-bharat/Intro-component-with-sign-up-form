@@ -6,10 +6,6 @@ function validation() {
     let l_name = document.getElementById("lname").value;
     let email = document.getElementById("email").value;
     let password = document.getElementById("password").value;
-
-    console.log(email);
-    var e = email.match(mailformat);
-    console.log(e);
     
     let fname_text = '', lname_text = '', pass_text = '';
     if (f_name === '') {
